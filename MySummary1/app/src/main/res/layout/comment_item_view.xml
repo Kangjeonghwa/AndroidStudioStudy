@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/user1"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFCCCCCC"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="id"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:text="10분전"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#ff888888"/>
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_margin="1dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_margin="1dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_margin="1dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_margin="1dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/star"/>
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_margin="1dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/star"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="comment"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="추천 0      | "
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="    신고하기"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:textColor="#ff888888"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

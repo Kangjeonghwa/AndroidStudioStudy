@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="#ff888888">
+
+    <Button
+        android:id="@+id/likeButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/thumbs_up_selector" />
+
+    <TextView
+        android:id="@+id/likeCountView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="24dp"
+        android:text="1"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
